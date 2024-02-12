@@ -139,15 +139,15 @@ kramdown:
       start_line: 1
 
 collections:
-  tabs:
+  part1:
     output: true
-    sort_by: order
-  _1:
+    permalink: /part1/:path/
+  part2:
     output: true
-  _2:
+    permalink: /part2/:path/
+  part3:
     output: true
-  _3:
-    output: true
+    permalink: /part3/:path/
 
 defaults:
   - scope:
