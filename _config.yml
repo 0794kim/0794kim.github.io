@@ -142,6 +142,12 @@ collections:
   tabs:
     output: true
     sort_by: order
+  _1:
+    output: true
+  _2:
+    output: true
+  _3:
+    output: true
 
 defaults:
   - scope:
