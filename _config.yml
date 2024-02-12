@@ -142,11 +142,11 @@ collections:
   tabs:
     output: true
     sort_by: order
-  _1:
+  part1:
     output: true
-  _2:
+  part2:
     output: true
-  _3:
+  part3:
     output: true
 
 defaults:
