@@ -1,15 +1,7 @@
 name: "Build and Deploy"
 on:
-  push:
-    branches:
-      - main
-      - master
-    paths-ignore:
-      - .gitignore
-      - README.md
-      - LICENSE
-
-  # Allows you to run this workflow manually from the Actions tab
+  # Legacy workflow retained for manual compatibility checks only.
+  # The maintained Pages deployment is jekyll.yml.
   workflow_dispatch:
 
 permissions:
