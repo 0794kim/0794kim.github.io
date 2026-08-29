@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="7_AFF 콘텐츠에서 소개한 상품을 확인하는 공식 Product Hub">
+  <title>7_AFF Product Hub</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="shell">
+    <header>
+      <p class="eyebrow">7_AFF PRODUCT HUB</p>
+      <h1>영상에서 본 상품</h1>
+      <p class="intro">소개 콘텐츠와 연결된 상품만 표시합니다.</p>
+    </header>
+
+    <aside class="disclosure" aria-label="제휴 광고 고지">
+      이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.
+    </aside>
+
+    <section id="products" class="products" aria-live="polite">
+      <p class="loading">상품을 불러오는 중입니다.</p>
+    </section>
+  </main>
+
+  <template id="product-card-template">
+    <article class="product-card">
+      <img class="product-image" alt="" loading="eager" referrerpolicy="no-referrer">
+      <div class="product-copy">
+        <p class="program">COUPANG PARTNERS</p>
+        <h2 class="product-name"></h2>
+        <p class="summary"></p>
+        <a class="product-link" rel="sponsored noopener noreferrer" target="_blank">쿠팡에서 제품 확인</a>
+      </div>
+    </article>
+  </template>
+
+  <script src="product-hub.js" defer></script>
+</body>
+</html>
